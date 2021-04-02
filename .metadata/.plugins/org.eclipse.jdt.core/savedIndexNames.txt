@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Anuj\Coursera\LinkedIn_Learning\microservice\rabbit-mq\.metadata\.plugins\org.eclipse.jdt.core
+1798899954.index
+2349233673.index

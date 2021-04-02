@@ -1,0 +1,25 @@
+AMQP: Advanced Messaging Queue Protocol
+Why RabbitMQ?
+When you have distributed system that you want to integrate with message broker.
+
+Types of message brokers?
+Active MQ, AWS SQS, Azure Service Bus
+
+Advantages of MQ?
+Clustering of nodes,Highly Available Queues,MQ is multiprotocol,multiplatform and multi language support,management UI,easy tracing.
+
+Exchange Scenario:
+
+Fanout Exchange : for broadcasting
+Direct Exchange : Simple scenarios
+Topic Exchange  : Complex scenarios(scaling in futre)
+Header Exchange : Special Filtering(Rare)
+
+Running Rabbit MQ?
+1.Login to CloudAMQP website
+2. Docker Image
+3. Install locally
+
+For docker: docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+
+//// https://www.youtube.com/watch?v=5kxLeR_YuIk /////

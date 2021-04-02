@@ -1,0 +1,13 @@
+package com.anuj.mq;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ApringRabbitmqProducerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ApringRabbitmqProducerApplication.class, args);
+	}
+
+}
